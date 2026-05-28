@@ -1,9 +1,5 @@
 # MariaDB 10.6 Single Instance 설치 가이드
 
-Oracle Linux 7.7 환경에서 MariaDB 10.6을 처음부터 설치하는 가이드입니다.
-각 단계가 왜 필요한지 이유를 함께 설명합니다.
-
----
 
 ## 환경 구성
 
@@ -279,7 +275,7 @@ mysql -u root -p -e "SELECT user, host FROM mysql.user;"
 | NVL | NVL(a,b) | IFNULL(a,b) |
 | 문자열 결합 | `||` | CONCAT() |
 
-> ⚠️ MariaDB는 기본적으로 autocommit=1이라 COMMIT 없이도 DML이 즉시 반영된다.
+> MariaDB는 기본적으로 autocommit=1이라 COMMIT 없이도 DML이 즉시 반영된다.
 
 ---
 
