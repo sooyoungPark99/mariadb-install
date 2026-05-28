@@ -290,7 +290,7 @@ mysql -u root -p -e "SELECT user, host FROM mysql.user;"
 
 ---
 
-## 참고 자료
+#### 참고 자료
 
 - [MariaDB 공식 설치 문서](https://mariadb.com/kb/en/yum/)
 - [MariaDB vs MySQL 차이점](https://mariadb.com/kb/en/mariadb-vs-mysql-compatibility/)
