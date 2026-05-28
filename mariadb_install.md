@@ -157,10 +157,11 @@ chmod 755 /var/lib/mysql
 mysql_install_db --user=mysql --datadir=/var/lib/mysql
 ```
 
+#### MySQL을 사용했던 서버가 아니라면 서비스 시작부터 수행한다.
+
+다음 아래 명령어를 둘 다 설정해야 재부팅 후에도 MariaDB가 유지된다.
 - `systemctl start`: 현재 즉시 시작
 - `systemctl enable`: 서버 재부팅 시 자동으로 시작되도록 등록
-
-둘 다 설정해야 재부팅 후에도 MariaDB가 유지된다.
 
 ```bash
 systemctl start mariadb
