@@ -20,7 +20,7 @@ Oracle Linux 7.7 환경에서 MariaDB 10.6을 설치하는 가이드입니다.
 
 | 순서 | 내용 |
 |------|------|
-| 1 | [MariaDB 10.6 설치](./mariadb-install.md) |
+| 1 | [MariaDB 10.x 설치](./mariadb-install.md) |
 
 ---
 
